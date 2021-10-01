@@ -1,0 +1,19 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "Baixar e processar dados sobre a covid19",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wilk.lima",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "msnodesqlv8": "^2.4.0",
+    "mssql": "^7.2.1",
+    "pg": "^8.7.1"
+  }
+}
