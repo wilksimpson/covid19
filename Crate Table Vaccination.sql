@@ -1,7 +1,7 @@
 -- criar tabela para guardar registros de vacinação - Brasil
 CREATE TABLE vaccination (
     document_id varchar(50) NOT NULL,
-    paciente_id varchar(100) NOT NULL,
+    paciente_id varchar(200),
     paciente_idade varchar(3),
     paciente_nascimento varchar(10),
 	paciente_sexo varchar(1),
@@ -9,7 +9,7 @@ CREATE TABLE vaccination (
 	paciente_racacor_valor varchar(20),
 	paciente_end_codibge varchar(10),
 	paciente_end_codpais varchar(5),
-	paciente_end_nomemunicipio varchar(50),
+	paciente_end_nomemunicipio varchar(100),
 	paciente_end_nomePais varchar(50),
 	paciente_end_uf varchar(2),
 	paciente_end_cep varchar(10),
@@ -23,14 +23,14 @@ CREATE TABLE vaccination (
 	vacina_grupo_atend_cod varchar(10),
 	vacina_grupo_atend_nome varchar(100),
 	vacina_categoria_cod varchar(10),
-	vacina_categoria_nome varchar(50),
+	vacina_categoria_nome varchar(100),
 	vacina_lote varchar(20),
 	vacina_fabricante_nome varchar(100),
 	vacina_fabricante_ref varchar(50),
-	vacina_aplicacao varchar(10),
+	vacina_aplicacao varchar(30),
 	vacina_dose varchar(50),
 	vacina_codigo varchar(10),
 	vacina_nome varchar(100),
-	sistema_origem varchar(50),
+	sistema_origem varchar(100),
 	Primary Key (document_id)
 );
